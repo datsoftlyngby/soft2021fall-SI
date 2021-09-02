@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code/P1-WhoisClient/P1-WhoisClient.iml" filepath="$PROJECT_DIR$/code/P1-WhoisClient/P1-WhoisClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/P2-TCPC/P2-TCPC.iml" filepath="$PROJECT_DIR$/code/P2-TCPC/P2-TCPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/P2-TCPS/P2-TCPS.iml" filepath="$PROJECT_DIR$/code/P2-TCPS/P2-TCPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/P3-UDPC/P3-UDPC.iml" filepath="$PROJECT_DIR$/code/P3-UDPC/P3-UDPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/P3-UDPS/P3-UDPS.iml" filepath="$PROJECT_DIR$/code/P3-UDPS/P3-UDPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/soft2021fall-si.iml" filepath="$PROJECT_DIR$/.idea/soft2021fall-si.iml" />
+    </modules>
+  </component>
+</project>

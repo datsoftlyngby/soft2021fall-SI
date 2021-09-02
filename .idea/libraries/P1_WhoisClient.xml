@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="P1-WhoisClient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/code/P1-WhoisClient/dist/P1-WhoisClient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
