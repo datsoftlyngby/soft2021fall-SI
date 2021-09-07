@@ -1,0 +1,20 @@
+syntax = "proto3";
+package dk.dd.grpc;
+option java_multiple_files = true;
+
+// Service: hello(HelloRequest) returns (HelloResponse)
+
+// Define the service components and attributes
+message HelloRequest {
+    string firstName = 1;
+    string lastName = 2;
+}
+
+message HelloResponse {
+    string greeting = 1;
+}
+
+// Define service contract
+service HelloService {
+    rpc hello(HelloRequest) returns (HelloResponse);
+}
