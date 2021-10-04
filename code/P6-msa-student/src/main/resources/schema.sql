@@ -1,0 +1,8 @@
+-- This file has fixed name and location
+DROP TABLE IF EXISTS PUBLIC.STUDENT;
+
+CREATE TABLE PUBLIC.STUDENT(
+  id LONG  PRIMARY KEY,
+  name VARCHAR(25) NOT NULL,
+  mail VARCHAR(25) NOT NULL
+);

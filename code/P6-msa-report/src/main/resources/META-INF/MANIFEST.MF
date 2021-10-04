@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Main-Class: dk.dd.msareport.MsaReportApplication
+Class-Path: spring-data-rest-core-3.5.4.jar spring-beans-5.3.9.jar sprin
+ g-boot-starter-tomcat-2.5.4.jar spring-web-5.3.9.jar evo-inflector-1.2.
+ 2.jar json-smart-2.4.7.jar spring-core-5.3.9.jar spring-context-5.3.9.j
+ ar logback-classic-1.2.5.jar spring-webmvc-5.3.9.jar jackson-datatype-j
+ sr310-2.12.4.jar jakarta.annotation-api-1.3.5.jar spring-hateoas-1.3.3.
+ jar spring-boot-devtools-2.5.4.jar spring-data-rest-hal-explorer-3.5.4.
+ jar tomcat-embed-websocket-9.0.52.jar spring-data-mongodb-3.2.4.jar jac
+ kson-module-parameter-names-2.12.4.jar spring-data-rest-webmvc-3.5.4.ja
+ r jul-to-slf4j-1.7.32.jar spring-aop-5.3.9.jar slf4j-api-1.7.32.jar spr
+ ing-boot-starter-logging-2.5.4.jar tomcat-embed-el-9.0.52.jar log4j-to-
+ slf4j-2.14.1.jar snakeyaml-1.28.jar logback-core-1.2.5.jar spring-tx-5.
+ 3.9.jar spring-jcl-5.3.9.jar spring-boot-autoconfigure-2.5.4.jar spring
+ -boot-starter-2.5.4.jar spring-data-commons-2.5.4.jar mongodb-driver-co
+ re-4.2.3.jar spring-boot-starter-data-rest-2.5.4.jar spring-boot-2.5.4.
+ jar lombok-1.18.20.jar log4j-api-2.14.1.jar jackson-databind-2.12.4.jar
+  mongodb-driver-sync-4.2.3.jar tomcat-embed-core-9.0.52.jar spring-expr
+ ession-5.3.9.jar json-path-2.5.0.jar jackson-annotations-2.12.4.jar jac
+ kson-datatype-jdk8-2.12.4.jar jackson-core-2.12.4.jar spring-plugin-cor
+ e-2.0.0.RELEASE.jar spring-boot-starter-json-2.5.4.jar bson-4.2.3.jar s
+ pring-boot-starter-data-mongodb-2.5.4.jar spring-boot-starter-web-2.5.4
+ .jar spring-boot-starter-hateoas-2.5.4.jar asm-9.1.jar accessors-smart-
+ 2.4.7.jar
+

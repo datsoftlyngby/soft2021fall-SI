@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  reports:
+    build: /Users/tdi/IdeaProjects/msa-report
+    ports:
+      - "8080:8080"
+    links:
+      - mongodb
+
+  assignments:
+    build: /Users/tdi/IdeaProjects/msa-assignment
+    ports:
+      - "7070:8080"
+
+  students:
+    build: /Users/tdi/IdeaProjects/msa-student
+    ports:
+      - "6060:8080"
+
+  mongodb:
+    image: mongo
