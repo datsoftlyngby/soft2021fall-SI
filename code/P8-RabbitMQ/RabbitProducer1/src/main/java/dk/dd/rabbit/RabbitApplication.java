@@ -24,7 +24,7 @@ public class RabbitApplication
         createQueue(message);
         System.out.println(" [x] Sent '" + message + "'");
     }
-
+false
     public static void createQueue(String message) throws Exception
     {
             ConnectionFactory factory = new ConnectionFactory();
