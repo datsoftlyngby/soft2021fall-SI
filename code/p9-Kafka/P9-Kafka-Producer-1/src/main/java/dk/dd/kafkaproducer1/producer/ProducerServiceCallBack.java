@@ -13,7 +13,7 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 @Service
 public class ProducerServiceCallBack
 {
-    private static final String TOPIC = "message-topic";
+    private static final String TOPIC = "message-kafka";
     private static Logger logger = LoggerFactory.getLogger(ProducerServiceCallBack.class);
     
     @Autowired
@@ -23,7 +23,6 @@ public class ProducerServiceCallBack
     public void sendMessageCallBack(String message)
     {
         ListenableFuture<SendResult<String, String>> future = template.send(TOPIC, message);
-    
         future.addCallback(new ListenableFutureCallback<SendResult<String, String>>()
         {
             @Override

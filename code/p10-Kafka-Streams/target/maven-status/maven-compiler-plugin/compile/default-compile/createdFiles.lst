@@ -1,0 +1,7 @@
+dk/dd/stream/processor/OddNumberProcessor.class
+dk/dd/stream/KafkaStreamApplication.class
+dk/dd/stream/consumer/KafkaDoubleConsumer.class
+dk/dd/stream/processor/KafkaStreamProcessor.class
+dk/dd/stream/producer/KafkaNumberProducer.class
+dk/dd/stream/consumer/KafkaSquareConsumer.class
+dk/dd/stream/processor/EvenNumberProcessor.class

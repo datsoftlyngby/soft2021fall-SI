@@ -1,0 +1,7 @@
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/processor/KafkaStreamProcessor.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/processor/EvenNumberProcessor.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/producer/KafkaNumberProducer.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/consumer/KafkaDoubleConsumer.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/processor/OddNumberProcessor.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/consumer/KafkaSquareConsumer.java
+/Users/tdi/Documents/Teaching/SI/2021/Code/P10-Kafka-Stream/src/main/java/dk/dd/stream/KafkaStreamApplication.java
