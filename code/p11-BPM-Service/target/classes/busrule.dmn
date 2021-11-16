@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/1.0" id="Definitions_1nkoy0e" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.3.5">
+  <decision id="bus-rule" name="Business Rules">
+    <extensionElements>
+      <biodi:bounds x="150" y="75" width="180" height="80" />
+    </extensionElements>
+    <decisionTable id="decisionTable_1">
+      <input id="input_1" label="item">
+        <inputExpression id="inputExpression_1" typeRef="string">
+          <text>item</text>
+        </inputExpression>
+      </input>
+      <output id="output_1" label="approved" name="approved" typeRef="boolean" />
+      <rule id="DecisionRule_0kjy2ld">
+        <inputEntry id="UnaryTests_0febbx8">
+          <text>"item-A"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_15c4r4b">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1nwikzp">
+        <inputEntry id="UnaryTests_17bifba">
+          <text>not("item-A")</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1urb5n1">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
