@@ -1,0 +1,18 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 32768
+      database: orders
+  kafka:
+    bootstrap-servers:
+      - localhost:9091
+      - localhost:9092
+      - localhost:9093
+    consumer:
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-serializer: org.apache.kafka.common.serialization.LongDeserializer
+      value-serializer: org.apache.kafka.common.serialization.StringDeserializer
